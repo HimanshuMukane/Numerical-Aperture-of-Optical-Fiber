@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.target01 {
+    width: 1vw;
+    height: 1vw;
+    vertical-align: top;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 4px;
+    background-color: rgb(238, 238, 238);
+}
+
+.float {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 1vw;
+}
+
+.dragger {
+    width: 10vw;
+    padding: 3px 4px;
+    margin: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: move;
+    vertical-align: top;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#game {
+    margin: auto;
+}
+
+.subheader {
+    vertical-align: top;
+    text-align: center;
+    padding: 4px;
+    font-weight: 700;
+}
+
+.noStyle {
+    border: 0 none #FFF;
+}
+
+.tabCont {
+    margin: 0 0 20px 0;
+}
